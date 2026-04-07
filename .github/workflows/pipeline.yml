@@ -37,8 +37,8 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-
-       - name: Test
+  
+      - name: Test
         run: mvn test
         continue-on-error: true
 
